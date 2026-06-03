@@ -1,0 +1,137 @@
+2026-06-03 20:22:08 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/vincent/Library/Caches/JetBrains/IntelliJIdea2024.3/temp-testng-customsuite.xml
+
+2026-06-03 20:22:13 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-06-03 20:22:13 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-06-03 20:22:15 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-mac-arm64.zip
+2026-06-03 20:22:15 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/148.0.7778.178/chromedriver
+2026-06-03 20:22:17 [main] INFO  org.selenium.base.BaseTest - Current Thread: 3, DRIVER = ChromeDriver: chrome on mac (10b50414122770a686e75ca8d690be0e)
+2026-06-03 20:22:18 [main] INFO  org.selenium.base.BaseTest - Driver quit successfully
+2026-06-03 20:34:26 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/vincent/Library/Caches/JetBrains/IntelliJIdea2024.3/temp-testng-customsuite.xml
+
+2026-06-03 20:34:28 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-06-03 20:34:28 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-06-03 20:34:36 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-mac-arm64.zip
+2026-06-03 20:34:36 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/148.0.7778.178/chromedriver
+2026-06-03 20:34:38 [main] INFO  org.selenium.base.BaseTest - Current Thread: 3, DRIVER = ChromeDriver: chrome on mac (bd430ec31d18cd98f27eccfafe8c95f3)
+2026-06-03 20:34:40 [main] INFO  org.selenium.base.BaseTest - Driver quit successfully
+2026-06-03 20:59:04 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/vincent/Library/Caches/JetBrains/IntelliJIdea2024.3/temp-testng-customsuite.xml
+
+2026-06-03 20:59:05 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-06-03 20:59:05 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-06-03 20:59:06 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-mac-arm64.zip
+2026-06-03 20:59:06 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/148.0.7778.178/chromedriver
+2026-06-03 20:59:08 [main] INFO  org.selenium.base.BaseTest - Current Thread: 3, DRIVER = ChromeDriver: chrome on mac (d10746d0fbbfe10fa50e1a5f60064353)
+2026-06-03 20:59:08 [main] ERROR org.selenium.base.BaseTest - Test failed: BrowserLaunchTest.testFirefoxBrowserLaunch
+2026-06-03 20:59:08 [main] ERROR org.selenium.base.BaseTest - Failed to save screenshot
+javax.imageio.IIOException: Can't create an ImageOutputStream!
+	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1506)
+	at org.selenium.base.BaseTest.takeScreenshotUsingAshot(BaseTest.java:80)
+	at org.selenium.base.BaseTest.quitDriver(BaseTest.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-06-03 20:59:08 [main] INFO  org.selenium.base.BaseTest - Screenshot saved to: /Users/vincent/selenium/automation-selenium/screenshots/null/BrowserLaunchTest_testFirefoxBrowserLaunch.png
+2026-06-03 20:59:08 [main] INFO  org.selenium.base.BaseTest - Driver quit successfully
+2026-06-03 20:59:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/vincent/Library/Caches/JetBrains/IntelliJIdea2024.3/temp-testng-customsuite.xml
+
+2026-06-03 20:59:48 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-06-03 20:59:48 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-06-03 20:59:51 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-mac-arm64.zip
+2026-06-03 20:59:51 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/148.0.7778.178/chromedriver
+2026-06-03 20:59:53 [main] INFO  org.selenium.base.BaseTest - Current Thread: 3, DRIVER = ChromeDriver: chrome on mac (8edd18535670a9ae0d416c0bd54866e0)
+2026-06-03 20:59:55 [main] INFO  org.selenium.base.BaseTest - Driver quit successfully
+2026-06-03 21:21:02 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/vincent/Library/Caches/JetBrains/IntelliJIdea2024.3/temp-testng-customsuite.xml
+
+2026-06-03 21:21:03 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-06-03 21:21:03 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-06-03 21:21:04 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-mac-arm64.zip
+2026-06-03 21:21:04 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/148.0.7778.178/chromedriver
+2026-06-03 21:21:06 [main] INFO  org.selenium.base.BaseTest - Current Thread: 3, DRIVER = ChromeDriver: chrome on mac (1572762bf76a2598c1c940d9d241b35b)
+2026-06-03 21:21:09 [main] INFO  org.selenium.base.BaseTest - Driver quit successfully
+2026-06-03 21:23:54 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/vincent/Library/Caches/JetBrains/IntelliJIdea2024.3/temp-testng-customsuite.xml
+
+2026-06-03 21:23:55 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-06-03 21:23:55 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-06-03 21:24:00 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-mac-arm64.zip
+2026-06-03 21:24:00 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/148.0.7778.178/chromedriver
+2026-06-03 21:24:02 [main] INFO  org.selenium.base.BaseTest - Current Thread: 3, DRIVER = ChromeDriver: chrome on mac (24aeb3bbaef883466904fbf8dde7af2f)
+2026-06-03 21:24:05 [main] INFO  org.selenium.base.BaseTest - Driver quit successfully
+2026-06-03 22:42:26 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/vincent/Library/Caches/JetBrains/IntelliJIdea2024.3/temp-testng-customsuite.xml
+
+2026-06-03 22:42:31 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-06-03 22:42:31 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-06-03 22:42:33 [main] INFO  i.g.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-mac-arm64.zip
+2026-06-03 22:42:34 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vincent/.cache/selenium/chromedriver/mac-arm64/148.0.7778.178/chromedriver
+2026-06-03 22:42:35 [main] INFO  org.selenium.base.BaseTest - Current Thread: 3, DRIVER = ChromeDriver: chrome on mac (89de66e1fdedd3f142a8a6965d6d4e9c)
+2026-06-03 22:42:38 [main] ERROR org.selenium.base.BaseTest - Test failed: TC1_VerifyThatTheCheckBoxWorkingCorrectly.testCheckboxes
+2026-06-03 22:42:38 [main] ERROR org.selenium.base.BaseTest - Failed to save screenshot
+javax.imageio.IIOException: Can't create an ImageOutputStream!
+	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1506)
+	at org.selenium.base.BaseTest.takeScreenshotUsingAshot(BaseTest.java:80)
+	at org.selenium.base.BaseTest.quitDriver(BaseTest.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-06-03 22:42:38 [main] INFO  org.selenium.base.BaseTest - Screenshot saved to: /Users/vincent/selenium/automation-selenium/screenshots/null/TC1_VerifyThatTheCheckBoxWorkingCorrectly_testCheckboxes.png
+2026-06-03 22:42:39 [main] INFO  org.selenium.base.BaseTest - Driver quit successfully
