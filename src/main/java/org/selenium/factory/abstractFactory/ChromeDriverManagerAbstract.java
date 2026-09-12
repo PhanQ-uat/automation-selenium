@@ -8,7 +8,6 @@ import java.time.Duration;
 public class ChromeDriverManagerAbstract extends DriverManagerAbstract {
     @Override
     protected void startDriver() {
-
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         

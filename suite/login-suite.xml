@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Automation Suite">
+    <test name="Login Tests">
+        <parameter name="browser" value="CHROME"/>
+        <classes>
+            <class name="org.example.practices.login.tests.LoginTests"/>
+        </classes>
+    </test>
+</suite>
